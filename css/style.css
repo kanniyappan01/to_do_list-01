@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color:#dadede;
+}
+input, textarea{
+	font-size:15px;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+li{
+	list-style-type:none;
+}
+.food-card{
+	width:100%;
+	background-color:#117AD4;
+	text-align:center;
+	color:white;
+	padding:20px;
+	margin:0 0 20px 0;
+	
+}
+.food-container{
+	width:60%;
+	margin:0 auto;
+	border-radius:4px;
+}
+.food-container .food-box, .food-item-container{
+	background-color:white;
+	padding:10px;
+	margin:0 0 10px 0;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.food-box div{
+	width:50%;
+	margin:0 auto;
+}
+.user-value{
+	width:100%;
+	padding:5px;
+}
+.food-box .buttons{
+	width:100%;
+	text-align:center;
+	margin:15px 0 ;
+}
+.food-box .input-btn, .update-btn{
+	background-color:#117AD4;
+	width:80px;
+	padding:5px 10px;
+	margin:0 5px;
+	display:inline-block;
+	color:white;
+	border:none;
+	border-radius:2px;
+}
+ul{
+	margin:10px;
+}
+.food-item-container{
+	display:flex;
+	flex-wrap:wrap;
+}
+.food-square{
+	width:33.33%;
+	padding:10px;
+}
+.food-item-box{
+	position:relative;
+	width:100%;
+	border:1px solid black;
+	border-radius:4px;
+	padding:10px;
+	margin:5px;
+	text-align:center;
+}
+.food-item-box .food-item{
+	font-size:15px;
+}
+.food-item-box .para{
+	font-size: ;
+}
+.food-square .icons{
+	display:none;
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+.icons span{
+	background-color:#117AD4;
+	color:white;
+	font-size:10px;
+	padding:4px;
+	border-radius:4px;
+}
+.icons i{
+	color:red;
+}
+.icons i:hover{
+	background-color:red;
+	color:white;
+	border-radius:4px;
+	
+}
+.food-square:hover .icons{
+	display:block;
+	transition:all 1s;
+}
+.food-item-box p{
+	font-size:12px;
+	margin:5px;
+}
